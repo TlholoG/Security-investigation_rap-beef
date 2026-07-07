@@ -24,3 +24,7 @@ let _targets = Email
 | distinct recipient;
 Employees
 | where email_addr in (_targets)
+
+OutboundNetworkEvents
+| where url == "http://betterlyrics4u.com/share/online/published/enter"
+| where src_ip == "10.10.0.5"
