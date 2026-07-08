@@ -64,3 +64,13 @@ OutboundNetworkEvents
 | where src_ip in (Sonia_Gose_ip)
 | distinct url
 | count 
+//10.10.0.3
+
+OutboundNetworkEvents
+| where src_ip == "10.10.0.3"
+| where url contains "promotion"
+// Yes she clicked on a link to a promotion website
+
+FileCreationEvents
+| where hostname == "UL0M-MACHINE"
+// Yes she created a file on her machine

@@ -1,0 +1,17 @@
+"timestamp": 2024-01-05T09:42:05.000Z,
+"sender": newspaper_jobs@gmail.com,
+"reply_to": newspaper_jobs@gmail.com,
+"recipient": sonia_gose@valdoriantimes.news,
+"subject": [EXTERNAL] FW: Invitation to Apply: Lead Political Correspondent,
+"verdict": CLEAN,
+"link": https://promotionrecruit.com/published/Valdorian_Times_Editorial_Offer_Letter.docx
+
+"hire_date": 2018-11-17T11:45:25.000Z,
+"name": Sonia Gose,
+"user_agent": Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.96 Safari/537.36,
+"ip_addr": 10.10.0.3,
+"email_addr": sonia_gose@valdoriantimes.news,
+"company_domain": valdoriantimes.news,
+"username": sogose,
+"role": Senior Editor,
+"hostname": UL0M-MACHINE
