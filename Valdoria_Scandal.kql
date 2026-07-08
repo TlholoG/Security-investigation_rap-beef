@@ -74,3 +74,18 @@ OutboundNetworkEvents
 FileCreationEvents
 | where hostname == "UL0M-MACHINE"
 // Yes she created a file on her machine
+
+ProcessEvents
+| where hostname == "UL0M-MACHINE"
+| where process_commandline contains  "hacktivist_manifesto.ps1"
+// Found a process that executed a script called hacktivist_manifesto.ps1 on her machine
+
+Email
+| where sender == "valdorias_best_recruiter@gmail.com"
+| where recipient == "ronnie_mclovin@valdoriantimes.news"
+// 1/10/2024, 8:48:16 AM
+
+ProcessEvents
+| where timestamp between (datetime(2024-01-21 07:00:00) .. datetime(2024-01-21 12:00:00))
+| where hostname == "A37A-DESKTOP"
+| order by timestamp asc
