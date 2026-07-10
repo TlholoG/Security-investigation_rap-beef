@@ -26,3 +26,8 @@ InboundNetworkEvents url shows the attacker was searching how to hack Afomiya's
 location from her instagram story
 
 The attacker exfiltrated emails and send them to an email address noreply@influencer-deals.net
+
+It was found that Afomiya's sensitive data was leaked from her emails. Through her bank statements and account receipts
+she had stored on her emails. Details of her address and where she lives were also compromised.
+
+That concludes the investigation.
