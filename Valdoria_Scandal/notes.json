@@ -1,21 +1,11 @@
+{
 "timestamp": 2024-01-05T09:42:05.000Z,
 "sender": newspaper_jobs@gmail.com,
 "reply_to": newspaper_jobs@gmail.com,
 "recipient": sonia_gose@valdoriantimes.news,
 "subject": [EXTERNAL] FW: Invitation to Apply: Lead Political Correspondent,
 "verdict": CLEAN,
-"link": https://promotionrecruit.com/published/Valdorian_Times_Editorial_Offer_Letter.docx
-
-"hire_date": 2018-11-17T11:45:25.000Z,
-"name": Sonia Gose,
-"user_agent": Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.96 Safari/537.36,
-"ip_addr": 10.10.0.3,
-"email_addr": sonia_gose@valdoriantimes.news,
-"company_domain": valdoriantimes.news,
-"username": sogose,
-"role": Senior Editor,
-"hostname": UL0M-MACHINE
-
+"link": https://promotionrecruit.com/published/Valdorian_Times_Editorial_Offer_Letter.docx,
 
 "timestamp": 2024-01-05T10:24:04.000Z,
 "hostname": UL0M-MACHINE,
@@ -23,7 +13,7 @@
 "sha256": 60b854332e393a6a2f0015383969c3ac705126a6b7829b762057a3994967a61f,
 "path": C:\Users\sogose\Downloads\Valdorian_Times_Editorial_Offer_Letter.docx,
 "filename": Valdorian_Times_Editorial_Offer_Letter.docx,
-"process_name": edge.exe
+"process_name": edge.exe,
 
 "timestamp": 2024-01-05T10:24:32.000Z,
 "hostname": UL0M-MACHINE,
@@ -31,7 +21,7 @@
 "sha256": 1c3ef0407d5714037504c52f7abfa86c081fd7a021b52e2abe8a669f92413252,
 "path": C:\ProgramData\hacktivist_manifesto.ps1,
 "filename": hacktivist_manifesto.ps1,
-"process_name": explorer.exe
+"process_name": explorer.exe,
 
 "timestamp": 2024-01-05T10:24:32.000Z,
 "parent_process_name": WINWORD.EXE,
@@ -40,7 +30,7 @@
 "process_name": hacktivist_manifesto.ps1,
 "process_hash": e8be07fad6781e7ebce9492958353b868501ab9ad67ac8eeb43eb8c71e9786b3,
 "hostname": UL0M-MACHINE,
-"username": sogose
+"username": sogose,
 
 "timestamp": 2024-01-06T02:39:35.000Z,
 "parent_process_name": cmd.exe,
@@ -50,3 +40,5 @@
 "process_hash": bcd891f6ef905def30065ad2ef7df60d1283835b5435b5c484b8e08153686eee,
 "hostname": UL0M-MACHINE,
 "username": sogose
+
+}
