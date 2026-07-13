@@ -7,3 +7,7 @@ Files and URLs can be uploaded to VirusTotal.
 ⚠️However, once they are uploaded, they should be considered public.⚠️
 Organizations that pay for access can download uploaded files. 
 As a result, do not upload sensitive files or files that belong to your employer.
+======================================================================================
+
+Test the fileshash to see if anything comes up, the file has been flagged 0 times on 
+detection engines.
