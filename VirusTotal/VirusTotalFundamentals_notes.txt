@@ -11,3 +11,6 @@ As a result, do not upload sensitive files or files that belong to your employer
 
 Test the fileshash to see if anything comes up, the file has been flagged 0 times on 
 detection engines.
+
+Used MITRE ATT&CK to find the technique ID for 'masquerading' 
+T1036
