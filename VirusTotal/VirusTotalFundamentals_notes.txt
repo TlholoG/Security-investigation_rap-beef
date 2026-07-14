@@ -29,3 +29,25 @@ filehash: 4788925332fc6128c895b0e0736a1d7d90e3891f2abb456523cbf0c1ced7d1e2
 this file has 34/68 and a community score of -68.
 
 Signature info: A certificate was explicitly revoked by its issuer.
+
+=========================================================================================
+filehash: 549ff37e56d372d076a3d11cd33af660568dc1048b1f4ecce77d8b334582c6c8
+
+this file has 9/70 and a community score of 1.
+this file is owned by: Copyright (c) Intel Corporate
+but the first Signature belongs to: M-Trans Maciej Caban
+
+filehash: a50bcbf0ef744f6b7780685cfd2f41a13be4c921d4b401384efd85c6109d7c00
+has the same certificatesigner as the one above but ⚠️However has the same hits by detection
+engines.
+this file has 39/68 and a community score of -61.
+this file is owned by: meta
+but the first Signature belongs to: M-Trans Maciej Caban
+https://github.com/ditekshen/detection by ditekSHen
+
+found a yara file contributed by the community
+rule INDICATOR_EXE_DotNET_Encrypted {
+    meta:
+        author = "ditekSHen"
+        description = "Detects encrypted or obfuscated .NET executables"
+=====================================================================================================
