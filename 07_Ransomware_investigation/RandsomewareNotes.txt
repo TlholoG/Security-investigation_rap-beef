@@ -22,3 +22,27 @@ This domain resolves to ip: 203.0.113.1 and 203.0.113.2
 The additiona domain found asscociated with this IP address is: emr-help.net 
 
 The attackers have done their reconnaissance, we can see a total of 37 IP requests that came from these two IP's
+
+We see a successful Login on hostname MAIL-SERVER01 with src_ip 203.0.113.1 at 2024-05-20 00:00:00+00:00
+Anthony Davis: is the acount used by the attacker to Login to the network.
+His credentials were purchased from another hacker.
+
+a few weeks back someone at the company reported seeing a sponsored google search result for Raising Cane's.
+we can see an immetiation site with domain raisinkanes.com and legit domain raisingcanes.com
+we see 26 web requests made to the fake website.
+Users who clicked on this website were redirected to nothing-to-see-here.net 
+Users who clicked on this website were redirected to totally-legit-domain.com
+Raisin_Kane_Promo_Offer.docx is a file downloaded and it redirects the user to Raisin_Kane_Free_Meal_Voucher.pdf
+RQJQ-MACHINE: is the Firsthost to download this file at 2024-05-01 09:56:50+00:00
+The file hash a Sha256: bd886046266b909a8ca5f19f16e5606baf73194a70632c81fdc44ef39ba29712
+Chrome was the browser used
+cobaltstrike.exe is the file immediately drop on the host after clicking
+from this file the hackers connect to IP  93.238.22.122 using port 50050
+
+Anthony Davis, hostname: AMFB-MACHINE 
+IP: 10.10.0.1
+The attacker moves laterally in the network to Anthony Davides machine, Once inside the attacker downloads a file.
+File: advanced-ip-scanner.exe
+The attacker exfiltrates a file 'network_diagrams.pdf' and another that contains 'credentials.txt' .
+The attacker first compresses these two files into a zip to nat attract attention:  important_network_info.zip
+

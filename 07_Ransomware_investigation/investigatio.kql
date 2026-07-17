@@ -32,6 +32,53 @@ PassiveDns
 PassiveDns
 | where ip in ("203.0.113.1", "203.0.113.2")
 
+// We can see what kind of reconnaissance the hackers did on the network 
+// by looking for any connections to the IP addresses that we found in the PassiveDns query.
 InboundNetworkEvents
 | where src_ip  in ("203.0.113.1", "203.0.113.2")
 | where url has "bypass"
+
+InboundNetworkEvents
+| where src_ip  in ("203.0.113.1", "203.0.113.2")
+| where url has "patient"
+
+// We are looking for any account the hackers may have logged into on the network. 
+// We can use the IP addresses we found in the PassiveDns query to find any authentication events that may have occurred from those IP addresses.
+AuthenticationEvents
+| where src_ip  in ("203.0.113.1", "203.0.113.2")
+
+// We are looking  for the account owner the hackers used to log into the network.
+Employees
+| where  username == "andavis"
+
+// We are seeing how many requests were made to the fake website
+OutboundNetworkEvents
+| where url has "raisinkanes.com"
+
+// We are looking for the IP addresses that made requests to the fake website.
+OutboundNetworkEvents
+| where url has "raisinkanes.com"
+| distinct src_ip
+
+// We are searching for common files this ip forced to be downloaded from the fake website.
+let host_that_clicked = 
+Employees
+| where ip_addr  in ("10.10.0.231","10.10.0.151","10.10.0.42")
+|distinct hostname;
+FileCreationEvents
+| where hostname in (host_that_clicked)
+
+FileCreationEvents
+| where filename == "Raisin_Kane_Promo_Offer.docx"
+
+ProcessEvents
+| where hostname == "RQJQ-MACHINE"
+| where timestamp between (datetime(2024-05-01) .. datetime(2024-05-02))
+
+// Figuring out when the attacker used Cobalt Strike to move laterally through the network.
+// specifically Anthony Davis's machine. We can see that the attacker used Cobalt Strike to move laterally through the network.
+ProcessEvents
+| where hostname == "AMFB-MACHINE"
+| where process_commandline contains "cobalt"
+//2024-05-14 12:24:45+00:00
+
